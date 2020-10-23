@@ -3,11 +3,9 @@
 		<tr> 
 			<td> nama </td>
 			<td> npm </td>
-			<td> jurusan</td>
 		</tr>
 		<tr>
-			<td> <?= $nama ?> </td>
-			<td> <?= $npm ?> </td>
-			<td> <?= $jurusan ?> </td>
+			<td> suci hikmawati </td>
+			<td> 1817051033</td>
 		</tr>
 	</table>
