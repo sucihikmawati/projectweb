@@ -39,6 +39,10 @@ $routes->get('/suci', function(){
 });
 $routes->get('/coba/(:any)/(:num)', 'HelloWorld::index/$1/$2');
 
+$routes->get('/buttons', 'Pages::index');
+$routes->get('/timeline', 'Pages::timeline');
+$routes->get('/icons', 'Pages::icons');
+
 /**
  * --------------------------------------------------------------------
  * Additional Routing
